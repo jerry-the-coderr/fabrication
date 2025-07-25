@@ -271,6 +271,9 @@ footer a img {
 
 /* --- Responsive Styles --- */
 @media (max-width: 555px) {
+    h1{
+        color: white;
+    }
     .flexbox { margin: 10px; }
     header {
         height: 100%;
@@ -355,8 +358,6 @@ footer a img {
         font-size: 1.3em;
         margin-bottom: 20px;
     }
-    h1{
-        color: white;
-    }
+
 }
 /* --- End of Combined and Optimized CSS --- */
