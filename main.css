@@ -3,6 +3,15 @@ html {
     scroll-behavior: smooth;
 }
 body {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+header,footer{
+    scroll-snap-align: start;
+}
+
+body {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -163,6 +172,7 @@ footer {
     border-top: 2px solid white;
     background-color: #222831;
     color: white;
+    height: 100vh;
 }
 footer a {
     display: flex;
@@ -330,6 +340,20 @@ footer a img {
     footer {
         background-color: #222831;
         color: white;
+    }
+    main{
+        background-color: white;
+    }
+    h2{
+        color: #222831;
+    }
+    footer h2{
+        color: white;
+    }
+    #image-gallery a button{
+        padding: 10px 20px;
+        font-size: 1.3em;
+        margin-bottom: 20px;
     }
 }
 /* --- End of Combined and Optimized CSS --- */
