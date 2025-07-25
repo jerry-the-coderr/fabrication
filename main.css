@@ -289,11 +289,12 @@ footer a img {
     }
     header img { display: none; }
     header h1 {
-        color: white;
+        color:#161616da;
         font-size: 3em;
+        text-shadow: 2px 3px 4px ;
     }
     header p {
-        color: white;
+        color: #1a1a1ada;
         font-weight: bold;
         font-size: 2em;
     }
